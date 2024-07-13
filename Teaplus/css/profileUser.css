@@ -1,0 +1,79 @@
+.divv{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 20px 100px 70px;
+    border-radius: 50px;
+}
+.boxtraii{
+    text-align: center;
+    width: 10%;
+height: 500px;
+/* border: 1px solid red; */
+}
+.boxphaii{
+    background-color: white;
+    /* border: 2px dotted red; */
+    max-width: 75%;
+}
+.boxphaii .title-profilee{
+    width: 100%;
+    height: 75px;
+}
+/*  */
+.title-profilee .p22{
+margin: 0px;
+}
+.p_titlee{
+    font-size: 24px;
+    margin: 20px 0px 5px;
+}
+.titlee{
+    text-align: center;
+    margin: 20px auto;
+}
+.form-userr{
+    display: flex;
+    padding: 20px;
+}
+.title-profilee{
+    padding: 15px 30px ;
+    /* font-weight: bold; */
+
+}
+.title-rightt{
+    text-align: right;
+    padding: 10px;
+}
+.btn-userprofilee{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    background-color:  rgb(28, 205, 28);
+    border: white;
+    color: white;
+}
+.tablee{
+    padding: 20px;
+}
+tr{
+    margin: 10px;
+    height: auto;
+}
+.img-user-main{
+    padding: 5px 20px;
+    text-align: center;
+    border-right: 1px solid gray;
+
+}
+.img-userr{
+    border-radius: 50% 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+.input-userr{
+    padding: 5px 15px;
+    width: 250px;
+    height: 35px;
+}

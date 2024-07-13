@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./img/logo/logo_png.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/loading.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/slide.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>Trang chủ</title>
+  </head>
+  <!--  -->
+  <body>
+    <div class="container w-100 d-f f-d">
+     
+      <!-- -----------------------main--------------------------- -->
+      <main class="w-100 d-f f-d al-c">
+        <header class="w-100 d-f f-d header-main">
+      
+
+          <!-- --------------header phần logo và menu bar----------------- -->
+          <div class="header-logo-menu w-100 d-f">
+            <div class="contain_logo_menu d-f">
+              <div class="logo d-f al-c">
+                <a href="#" class="d-f al-c jf-c">
+                  <img style="width: 80px" src="./img/logo/logo_png.png" alt="" />
+                </a>
+              </div>
+  
+              <div class="menu_bar d-f al-c">
+                <ul class="d-f al-c">
+                  <li><a class="header-main-link" href="#">Trang chủ</a></li>
+                  <li><a class="header-main-link" href="#">Sản phẩm</a></li>
+                  <li><a class="header-main-link" href="#">Tin tức</a></li>
+                  <li><a class="header-main-link" href="#">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="login">
+              <!-- -------------- Chưa đăng nhập-------------- -->
+  
+              <!-- <a href="">
+                    Đăng nhập
+                </a> -->
+  
+              <!-- -------------- Đăng nhập rồi------------------ -->
+  
+              <i class="fa-solid fa-chevron-down"></i>
+              <a
+                class="login-userName"
+                onclick="redirect('test.html?act=good',1000)"
+                >Nguyễn Văn Đức</a
+              >
+              <ul>
+                <li><a href="#">Thông tin tài khoản</a></li>
+                <li><a href="#">Đơn hàng</a></li>
+                <li><a href="#">Giỏ hàng</a></li>
+                <li><a href="#">Địa chỉ nhận hàng</a></li>
+                <li><a href="#">Đăng xuất</a></li>
+              </ul>
+            </div>
+            <div class="contain_like_cart d-f">
+              <div class="like">
+                <i class="fa-solid fa-heart"></i>
+                <div class="number">1</div>
+              </div>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="number">1</div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- --------------header phần danh mục và tìm kiếm số điện thoại-----------------   -->
+  
+          <div class="header-category_search d-f al-c">
+            <div class="contain_category d-f al-c">
+              <div class="d-f al-c category">
+                <i class="fa-solid fa-bars category-bar"></i>
+                <div class="category-text">Danh mục</div>
+              </div>
+              <i class="fa-solid fa-chevron-down category-icon-down"></i>
+              <ul>
+                <li><a href="#">Trà sữa trân châu</a></li>
+                <li><a href="#">Trà sữa matcha</a></li>
+                <li><a href="#">Trà sữa dâu tây</a></li>
+                <li><a href="#">Trà sữa chocolate</a></li>
+                <li><a href="#">Trà sữa việt quất</a></li>
+              </ul>
+            </div>
+            <div class="search">
+              <form action="" class="d-f">
+                <input
+                  type="text"
+                  class="input-search"
+                  placeholder="Bạn cần tìm kiếm sản phẩm..."
+                />
+                <input type="submit" value="Tìm kiếm" class="search-btn" />
+              </form>
+            </div>
+            <div class="contain_number-phone d-f al-c">
+              <div class="icon-phone">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+             
+            </div>
+          </div>
+        </header>
+        <!-- -------------------------------------------header ^--------------------------- -->
+        <div class="wrap_banner">
+          <div class="contain-banner w-100">
+            <div class="banner_back d-f al-c jf-c">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="banner_next d-f al-c jf-c">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="banner w-100 d-f">
+              <div class="banner_img w-100">
+                <a href="#">
+                  <img src="./img/banner/banner1.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="banner_img w-100">
+                <a href="#">
+                  <img src="./img/banner/banner6.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="banner_img w-100">
+                <a href="#">
+                  <img src="./img/banner/banner7.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="banner_img w-100">
+                <a href="#">
+                  <img src="./img/banner/banner8.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="banner_img w-100">
+                <a href="#">
+                  <img src="./img/banner/banner9.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="info_banner">
+            <ul class="d-f jf-c">
+              <li class="d-f jf-c al-c info_product active_info">
+                Thỏa cơn khát hè
+              </li>
+              <li class="d-f jf-c al-c info_product">Trà sữa ngọt ngào</li>
+              <li class="d-f jf-c al-c info_product">Rủ bạn bè trà sữa</li>
+              <li class="d-f jf-c al-c info_product">Cơn sốt trà sữa</li>
+              <li class="d-f jf-c al-c info_product">Taste the Love</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="wrap_slide_product">
+          <div class="contain-slide_product w-100">
+            <div class="slide_product_back d-f al-c jf-c">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="slide_product_next d-f al-c jf-c">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="slide_product w-100 d-f">
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts1.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts2.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts3.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts4.jpg" alt="" />
+                </a>
+              </div>
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts5.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts6.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts7.jpg" alt="" />
+                </a>
+              </div>
+              <!-- ---- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts8.jpg" alt="" />
+                </a>
+              </div>
+              <!-- --------------------------- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts9.jpg" alt="" />
+                </a>
+              </div>
+              <!-- --------------------------- -->
+              <div class="slide_product_img w-100">
+                <a href="#">
+                  <img src="./img/product/ts9.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="info_slide_product">
+            <ul class="d-f jf-c">
+              <li class="d-f jf-c al-c info_slideProduct active_slide"></li>
+              <li class="d-f jf-c al-c info_slideProduct"></li>
+              <li class="d-f jf-c al-c info_slideProduct"></li>
+              <li class="d-f jf-c al-c info_slideProduct"></li>
+              <li class="d-f jf-c al-c info_slideProduct"></li>
+              <li class="d-f jf-c al-c info_slideProduct"></li>
+              <li class="d-f jf-c al-c info_slideProduct"></li>
+            </ul>
+          </div>
+        </div>
+        <!-- --------------------------Sản phẩm------------------------- -->
+        <h1 class="title_product_new">Sản phẩm mới nhất</h1>
+
+        <div class="contain-product w-100 d-f">
+          <!-- ---------------------------------- -->
+          <div class="product d-f f-d al-c">
+            <div class="product-img w-100">
+              <a href="#">
+                <img src="./img/product/ts1.jpg" alt="" />
+              </a>
+              <div class="product-icon-cart-heart d-f jf-c">
+                <a href="#" class="product_icon product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart"></i>
+                </a>
+                <a href="#" class="product_icon d-f jf-c al-c">
+                  <i class="fa-solid fa-cart-shopping product_cart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="contain-name-price-product w-100">
+              <div class="product_name">Trà sữa trân châu </div>
+              <div class="product_price">25,000 VNĐ</div>
+              <div class="d-f m-t-b5 g-10 al-c">
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart_number"></i>
+                  <span class="number_show">10</span>
+                </a>
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-regular fa-comment product_comment_number"></i>
+                  <span class="number_show">10 comment</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------------------------------- -->
+             <!-- ---------------------------------- -->
+             <div class="product d-f f-d al-c">
+              <div class="product-img w-100">
+                <a href="#">
+                  <img src="./img/product/ts1.jpg" alt="" />
+                </a>
+                <div class="product-icon-cart-heart d-f jf-c">
+                  <a href="#" class="product_icon product-heart d-f jf-c al-c">
+                    <i class="fa-solid fa-heart product_heart"></i>
+                  </a>
+                  <a href="#" class="product_icon d-f jf-c al-c">
+                    <i class="fa-solid fa-cart-shopping product_cart"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="contain-name-price-product w-100">
+                <div class="product_name">Trà sữa trân châu </div>
+                <div class="product_price">25,000 VNĐ</div>
+                <div class="d-f m-t-b5 g-10 al-c">
+                  <a href="#" class=" product-heart d-f jf-c al-c">
+                    <i class="fa-solid fa-heart product_heart_number"></i>
+                    <span class="number_show">10</span>
+                  </a>
+                  <a href="#" class=" product-heart d-f jf-c al-c">
+                    <i class="fa-regular fa-comment product_comment_number"></i>
+                    <span class="number_show">10 comment</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+            <!-- ---------------------------------- -->
+          <div class="product d-f f-d al-c">
+            <div class="product-img w-100">
+              <a href="#">
+                <img src="./img/product/ts1.jpg" alt="" />
+              </a>
+              <div class="product-icon-cart-heart d-f jf-c">
+                <a href="#" class="product_icon product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart"></i>
+                </a>
+                <a href="#" class="product_icon d-f jf-c al-c">
+                  <i class="fa-solid fa-cart-shopping product_cart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="contain-name-price-product w-100">
+              <div class="product_name">Trà sữa trân châu </div>
+              <div class="product_price">25,000 VNĐ</div>
+              <div class="d-f m-t-b5 g-10 al-c">
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart_number"></i>
+                  <span class="number_show">10</span>
+                </a>
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-regular fa-comment product_comment_number"></i>
+                  <span class="number_show">10 comment</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------- -->
+          <div class="product d-f f-d al-c">
+            <div class="product-img w-100">
+              <a href="#">
+                <img src="./img/product/ts1.jpg" alt="" />
+              </a>
+              <div class="product-icon-cart-heart d-f jf-c">
+                <a href="#" class="product_icon product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart"></i>
+                </a>
+                <a href="#" class="product_icon d-f jf-c al-c">
+                  <i class="fa-solid fa-cart-shopping product_cart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="contain-name-price-product w-100">
+              <div class="product_name">Trà sữa trân châu </div>
+              <div class="product_price">25,000 VNĐ</div>
+              <div class="d-f m-t-b5 g-10 al-c">
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart_number"></i>
+                  <span class="number_show">10</span>
+                </a>
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-regular fa-comment product_comment_number"></i>
+                  <span class="number_show">10 comment</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------- -->
+          <div class="product d-f f-d al-c">
+            <div class="product-img w-100">
+              <a href="#">
+                <img src="./img/product/ts1.jpg" alt="" />
+              </a>
+              <div class="product-icon-cart-heart d-f jf-c">
+                <a href="#" class="product_icon product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart"></i>
+                </a>
+                <a href="#" class="product_icon d-f jf-c al-c">
+                  <i class="fa-solid fa-cart-shopping product_cart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="contain-name-price-product w-100">
+              <div class="product_name">Trà sữa trân châu </div>
+              <div class="product_price">25,000 VNĐ</div>
+              <div class="d-f m-t-b5 g-10 al-c">
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-solid fa-heart product_heart_number"></i>
+                  <span class="number_show">10</span>
+                </a>
+                <a href="#" class=" product-heart d-f jf-c al-c">
+                  <i class="fa-regular fa-comment product_comment_number"></i>
+                  <span class="number_show">10 comment</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+      <footer>
+        <div class="column logo-address">
+          <div class="footer-logo">
+            <a href="">
+              <img src="./img/logo/logo_png.png" alt="" />
+            </a>
+            <ul class="footer-list">
+              <li>FPT Phố Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội</li>
+              <li>01224345465</li>
+              <li>user@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <!-- ---------------------------------- -->
+        <div class="d-f jf-b">
+          <div class="column2 logo-address">
+            <div class="footer-logo2">
+              <h3>Liên kết hữu ích</h3>
+              <ul class="footer-list">
+                <li>Về chúng tôi</li>
+                <li>Liên hệ</li>
+                <li>Chính sách bảo mật</li>
+                <li>Chính sách đổi trả</li>
+              </ul>
+            </div>
+          </div>
+          <!-- ---------------------------------- -->
+          <div class="column2 logo-address">
+            <div class="footer-logo2">
+              <h3>Đăng kí nhận thông tin mới nhất</h3>
+              <ul class="footer-list">
+                <li>
+                  Nhập email của bạn để nhận thông tin khuyến mãi sớm nhất của
+                  chúng tôi
+                </li>
+              </ul>
+              <div class="search">
+                <form action="" class="d-f">
+                  <input
+                    style="width: 175px"
+                    type="text"
+                    class="input-search"
+                    placeholder="Đăng kí"
+                  />
+                  <input
+                    type="submit"
+                    value="Đăng kí"
+                    style="padding: 10px 15px"
+                    class="search-btn"
+                  />
+                </form>
+              </div>
+              <div class="social d-f" style="margin-top: 20px; width: 100%">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------- -->
+        </div>
+      </footer>
+    </div>
+    <!-- --------------------------Phần hiện lên bảng chọn các phần của trà sữa------------------ -->
+    <div class="contain-overlay-product-detail">
+      <div class="contain-product-detail">
+        <form action="" class="w-100">
+          <section class="block_up d-f jf-b al-t">
+            <div class="block_up-product-img">
+              <img src="./img/product/ts2.jpg" alt="" />
+            </div>
+            <div class="block_up-product-name-price d-f f-d">
+              <span class="block_up-name">Trà sữa</span>
+              <div class="d-f al-c m-t-b10 g-10">
+                <label for="" style="font-size: 1.35rem" class="label_block_up-price"
+                  >Giá :</label
+                >
+                <input type="number" value="25000" class="block_up-price"  />
+              </div>
+              <div class="quantity d-f al-c">
+                <div class="subtract circle_border">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+                <div class="product_quantity">1</div>
+                <div class="add circle_border">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="result">25,000đ</div>
+              </div>
+            </div>
+
+            <div class="close_show">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </section>
+          <!-- -------------------------------------- -->
+          <section class="block_down w-100">
+            <div class="d-f jf-b m-t-b10">
+              <div class="sugar choice-block choice-block w-45">
+                <span class="choice">
+                  <i class="fa-solid fa-cubes-stacked"></i> Chọn đường</span
+                >
+                <div class="d-f jf-b contain-choice">
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="10"
+                      class="input"
+                      name="sugar"
+                      checked
+                    />
+                    <label for="">100%</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input type="radio" value="5" class="input" name="sugar" />
+                    <label for="">70%</label>
+                  </div>
+                </div>
+              </div>
+              <!-- ------ -->
+              <div class="size choice-block w-45">
+                <span class="choice"
+                  ><i class="fa-solid fa-mug-hot"></i> Chọn size</span
+                >
+                <div class="d-f jf-b contain-choice">
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="20"
+                      class="input"
+                      id="size"
+                      name="size"
+                      checked
+                    />
+                    <label for="">M</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="10"
+                      class="input"
+                      id="size"
+                      name="size"
+                    />
+                    <label for="">L</label>
+                  </div>
+                </div>
+              </div>
+              <!-- ------ -->
+            </div>
+            <!-- -------------------------- -->
+            <div class="m-t-b10">
+              <div class="ice-rock choice-block w-100">
+                <span class="choice"
+                  ><i class="fa-solid fa-snowflake"></i> Chọn đá</span
+                >
+                <div class="d-f jf-b contain-choice">
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="15"
+                      class="input"
+                      name="ice-rock"
+                      checked
+                    />
+                    <label for="">100%</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="12"
+                      class="input"
+                      name="ice-rock"
+                    />
+                    <label for="">70%</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="10"
+                      class="input"
+                      name="ice-rock"
+                    />
+                    <label for="">50%</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="5"
+                      class="input"
+                      name="ice-rock"
+                    />
+                    <label for="">30%</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="radio"
+                      value="0"
+                      class="input"
+                      name="ice-rock"
+                    />
+                    <label for="">Không đá</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ------------ -->
+            <div>
+              <div class="topping choice-block w-100">
+                <span class="choice"
+                  ><i class="fa-solid fa-wine-bottle"></i> Chọn Topping</span
+                >
+                <div class="d-f jf-b f-d contain-choice">
+                  <div class="d-f g-10">
+                    <input
+                      type="checkbox"
+                      name="topping"
+                      class="input"
+                      value="15"
+                      checked
+                    />
+                    <label for="">Chân trâu baby</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="checkbox"
+                      name="topping"
+                      class="input"
+                      value="12"
+                    />
+                    <label for="">Khoai môn</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="checkbox"
+                      name="topping"
+                      class="input"
+                      value="10"
+                    />
+                    <label for="">Trân châu đen</label>
+                  </div>
+                  <div class="d-f g-10">
+                    <input
+                      type="checkbox"
+                      name="topping"
+                      class="input"
+                      value="5"
+                    />
+                    <label for="">Trân châu cam</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="submit-form d-f jf-b">
+            <div class="close-text">Đóng</div>
+            <input type="submit" value="Đặt hàng" class="submit_order" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ------------------loading chuột hamster ---------------------------- -->
+    <div class="container1">
+      <div
+        aria-label="Orange and tan hamster running in a metal wheel"
+        role="img"
+        class="wheel-and-hamster"
+      >
+        <div class="wheel"></div>
+        <div class="hamster">
+          <div class="hamster__body">
+            <div class="hamster__head">
+              <div class="hamster__ear"></div>
+              <div class="hamster__eye"></div>
+              <div class="hamster__nose"></div>
+            </div>
+            <div class="hamster__limb hamster__limb--fr"></div>
+            <div class="hamster__limb hamster__limb--fl"></div>
+            <div class="hamster__limb hamster__limb--br"></div>
+            <div class="hamster__limb hamster__limb--bl"></div>
+            <div class="hamster__tail"></div>
+          </div>
+        </div>
+        <div class="spoke"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="JavaScript/link.js"></script>
+    <script type="text/javascript" src="JavaScript/header.js"></script>
+    <script type="text/javascript" src="JavaScript/banner.js"></script>
+    <script type="text/javascript" src="JavaScript/slide.js"></script>
+    <script type="module" src="JavaScript/main.js"></script>
+  </body>
+</html>

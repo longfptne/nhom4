@@ -1,0 +1,161 @@
+.contain_product-detail {
+  width: 100%;
+  padding: 10px 5%;
+  margin-top: 3rem;
+}
+.detail-name-img {
+  width: 32%;
+}
+
+.all_detail_about_product {
+  width: 36%;
+}
+.contain-product-relation {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+/*  */
+.detail_img {
+  margin-top: 1.6rem;
+  border: 1px solid #888;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.detail_img:hover.detail_img img {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.detail_img img {
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+.product-relation_name_price {
+  flex: 1;
+  margin: 0px 10px;
+  padding: 6px 0px;
+}
+.product-relation_image {
+  display: flex;
+  width: 35%;
+  align-items: center;
+}
+.product-relation_image a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-relation_image a img {
+  width: 60%;
+}
+.product-relation {
+  border: 1px solid #777;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+.detail_submit {
+  padding: 10px 0px;
+  width: 49%;
+}
+/* -----------------------------BÌnh luận--------------------------- */
+
+.contain-comment {
+  /* padding: 0px 5%; */
+  margin-top: 30px;
+}
+
+.table-comment {
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  overflow: auto;
+  height: 400px;
+}
+.table-comment tr {
+  background-color: white;
+  /* padding: 0px 20px; */
+  margin: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #dedede;
+}
+.table-comment td {
+  border-top: 1px solid rgb(204, 202, 202);
+
+  box-sizing: border-box;
+  padding: 5px 20px;
+  width: 100%;
+}
+.table-comment td:nth-child(3) {
+  border-bottom: 1px solid rgb(230, 222, 222);
+  color: rgb(135, 135, 135);
+}
+.li-comment {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.comment_textarea{
+    padding: 10px ;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgb(137, 137, 137);
+    border-right: none;
+    
+
+}
+.comment_product_btn{
+    flex: 1;
+    background-color: white;
+    border: 1px solid rgb(137, 137, 137);
+    border-bottom-right-radius: 5px;
+    outline: none;
+    border-left: none;
+
+}
+.comment_textarea:focus-within{
+    border: 1px solid black;
+    border-right: none;
+    box-shadow: 1px 1px 10px  rgb(207, 207, 207);
+}
+.comment_textarea:focus-within~.comment_product_btn{
+    border: 1px solid black;
+    box-shadow: 10px 1px 10px  rgb(241, 241, 241);
+    border-left: none;
+
+
+}
+/* .comment_product_btn:focus-within{
+    border: 1px solid black;
+    border-left: none;
+    box-shadow: 1px 1px 10px  rgb(207, 207, 207);
+} */
+
+.btn_send_comment{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.btn_send_comment>input{
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+}

@@ -1,0 +1,197 @@
+/* <!-- ----------------------------------- Form hiển thị giỏ hàng ----^--------------------- --> */
+
+.form-submit-cart {
+  padding: 0px 10%;
+  margin-top: 10px;
+}
+.table-cart {
+  border-collapse: collapse;
+}
+.table-cart thead tr {
+  border: 1px solid var(--border-cart);
+}
+.table-cart thead tr th {
+  padding: 10px 0px;
+  padding-left: 15px;
+}
+/*  */
+
+.table-cart thead tr th {
+  font-size: 1.4rem;
+  text-align: left;
+
+}
+.table-cart tbody tr {
+  border: 1px solid var(--border-cart);
+  border-top: none;
+}
+.table-cart tbody tr td {
+  text-align: left;
+  padding: 10px 0px;
+  padding-left: 15px;
+
+  font-size: 1.4rem;
+}
+.upgrade-cart {
+  border-radius: 5px;
+  color: #999;
+  border: none;
+  font-size: 1.7rem;
+  cursor: no-drop;
+  /* pointer-events: none; */
+}
+.contain-upgrade-cart {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #999;
+  border: none;
+  font-size: 1.7rem;
+  cursor: no-drop;
+  background-color: #f1f1f1;
+  pointer-events: none;
+}
+.continue-buy {
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* color: #999; */
+  border: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.continue-buy:hover {
+  opacity: 0.7;
+}
+.receive-product {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 10px 10px;
+}
+.buy-now {
+  padding: 10px 0px;
+  background-color: #b9b9b9;
+  border: none;
+  /* pointer-events: none; */
+}
+.active-upgrade-cart {
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+}
+.rotate-upgrade-cart {
+  animation: rotate 1s infinite linear;
+  display: none;
+}
+.note {
+  display: none;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* <!-- ------------------ Nhập thông tin người dùng và thanh toán----------------v--------------- --> */
+.contain-info_user-pay {
+  padding: 0px 10%;
+  margin-top: 40px;
+}
+.info_user h4 {
+  margin-top: 8px;
+}
+.get-old-info {
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 15px 0px;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  color: var(--white) !important;
+}
+.input-info {
+  border: 1px solid var(--border-cart);
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  outline: none;
+  padding-left: 10px;
+  flex: 1;
+  caret-color: var(--primary-color);
+}
+.label_input-info-user {
+  padding: 9px 10px;
+  border: 1px solid #999;
+  background-color: #c8c8c8;
+  display: block;
+  width: 36px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.payments {
+  background-color: #f0f0f0;
+  padding: 8px 13px;
+  padding-bottom: 3px;
+  border: 1px solid var(--border-cart);
+  border-bottom: none;
+}
+.block-pay_ul {
+  border: 1px solid var(--border-cart);
+  background-color: #f0f0f0;
+}
+.block-pay_ul li {
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--border-cart);
+}
+.block-pay_ul li:last-child {
+  border-bottom: none;
+}
+
+.cash {
+  color: red;
+}
+.label_input-confirm-user {
+  padding: 4px 8px;
+}
+.delete-cart-confirm {
+  color: var(--white) !important;
+  background-color: red;
+  padding: 8px 10px;
+  text-align: center;
+}
+.form-pay {
+  padding-left: 15px;
+  border-bottom: 1px solid var(--border-cart);
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+.form-confirm {
+  padding-left: 15px;
+  border-bottom: 1px solid var(--border-cart);
+  padding-bottom: 20px;
+}
+.form-my-bill {
+  padding-left: 15px;
+  border-bottom: 1px solid var(--border-cart);
+  padding-bottom: 20px;
+}
+.bill_id {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+.form-payment {
+  padding: 0px 10%;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+}
+.form-payment input {
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white);
+  border-radius: 5px;
+}

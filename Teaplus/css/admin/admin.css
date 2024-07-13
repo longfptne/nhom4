@@ -1,0 +1,381 @@
+yg:root{
+    --color-text--sidebar :rgb(213, 213, 213);
+    --border-color-form-table: #c2c2c2;
+}
+
+/* ------------------------side bar -------------------------- */
+.side-bar {
+  width: 18%;
+  background-color: rgb(55, 66, 89);
+  color: var(--color-text--sidebar);
+  box-shadow: 5px 0px 15px #a5a4a4;
+  padding: 0px 10px;
+  height: 100vh;
+  position: fixed;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+/*  */
+}
+.dash-board {
+  position: relative;
+  left: 18%;
+  transition: all 0.3s ease-in-out;
+  
+  width: calc(100% - 18%);
+}
+.block {
+  width: 100%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid var(--admin-sideBar-border);
+  align-items: center;
+  font-size: 1.5rem;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+}
+.admin-search-sideBar {
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.admin-search-sideBar form button
+{
+  border: 1px solid var(--admin-sideBar-border);
+  background-color: rgba(81, 91, 114, 0.9);
+  color: var(--color-text--sidebar);
+  outline: none;
+  border-radius: 4px;
+}
+.admin-search-sideBar form input {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 85%;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  caret-color: aliceblue;
+  border: 1px solid var(--admin-sideBar-border);
+  background-color: rgba(81, 91, 114, 0.9);
+  color: var(--color-text--sidebar);
+  outline: none;
+  border-radius: 4px;
+}
+.admin-search-sideBar form input:focus-within{
+    border: 1px solid #cacaca;
+}
+.admin-search-sideBar form button {
+  flex: 1;
+  border-left: none;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.admin-search-sideBar form button:hover {
+  cursor: pointer;
+  background-color: rgb(97, 109, 137);
+  color: white;
+}
+.admin-search-sideBar form input::placeholder {
+  color: var(--admin-sideBar-border);
+}
+.contain-list-menu>ul>li{
+    height: 45px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.contain-list-menu>ul>li>a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-text--sidebar);
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+.contain-list-menu>ul>li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-text--sidebar);
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+.contain-list-menu>ul>li a:hover{
+    background-color: rgb(83, 87, 108);
+}
+.sub-menu{
+    margin-left: 8px;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+/* ----------------------------- dashboard -------------------------- */
+.admin-bar{
+    border: 1.5px solid rgb(183, 181, 181);
+    padding: 10px;
+}
+.left-menu{
+    gap: 25px;
+}
+main{
+    padding: 20px 10px ;
+}
+.contain_product_user_cash{
+    justify-content: space-between;
+}
+.admin-block-dashboard{
+    width: 320px;
+    height: 100px;
+    /* overflow: hidden; */
+    justify-content: space-between;
+    border-radius: 4px;
+    
+}
+.parameter{
+    background-color: rgb(36, 196, 236);
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* border-radius: 4px; */
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    box-sizing: border-box;
+}
+.admin_numberProduct{
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: var(--white);
+}
+.admin_textProduct{
+    color: var(--white);
+}
+.admin_icon_product{
+    font-size: 4rem;
+    opacity: 0.5;
+}
+.more-info{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+    gap: 10px;
+    font-weight: 500;
+    color:var(--white)
+
+}
+textarea{
+    resize: none;
+}
+.info_product{
+    background-color: rgb(9, 158, 196);
+}
+.info_money{
+   background-color: rgb(1, 110, 1);
+}
+.info_user{
+    background-color: rgb(190, 149, 13);
+}
+.admin_icon_more-info{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.canvas-chart{
+    
+    box-sizing: border-box;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.admin_money{
+    background-color: rgb(0, 157, 0);
+}
+.admin_user{
+background-color: orange;
+}
+
+/* ----------------------------admin product css-------------------------- */
+.search_list-product-admin{
+    border: 1px solid var(--border-color-form-table);
+    
+}
+.form-search{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-search input::placeholder{
+    color: var(--border-color-form-table);
+}
+.input-search{
+    padding: 10px 15px;
+    background-color: var(--white);
+    caret-color: var(--black);
+    width: 250px;
+    border: 1px solid var(--border-color-form-table);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+}
+.input-search:focus-within{
+    border: 1px solid rgb(61, 61, 61);
+}
+.submit-search-form{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 10px;
+    border: 1px solid #888;
+    border-left: none;
+    color: rgb(46, 46, 46);
+    padding-top: 2px;
+}
+.submit-search-form:hover{
+    color: var(--black);
+    cursor: pointer;
+    background-color: rgb(227, 227, 227);
+}
+.table{
+    border-top: 1px solid var(--border-color-form-table);
+    font-size: 1.4rem;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-collapse:collapse ;
+}
+.table>thead>tr{
+    border-bottom: 1px solid var(--border-color-form-table);
+}
+.table>thead>tr>th{
+    padding: 10px 0px;
+
+}
+.table>thead>tr>th:first-child{
+    padding-left: 10px;
+
+}
+.table>tbody>tr>td{
+    padding: 10px 0px;
+}
+.table>tbody>tr:hover{
+    background-color: #e7e7e7;
+}
+.table>tbody>tr>td:first-child{
+    padding-left: 10px;
+
+}
+.table>thead>tr>th{
+    text-align: left;
+}
+.url-edit,.url-delete{
+   padding: 5px 8px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 3px;
+   
+}
+.url-edit i,.url-delete i{
+    color: var(--white);
+}
+.url-edit{
+    background-color: rgb(42, 173, 255);
+
+}
+.url-delete{
+    background-color: red;
+}
+
+
+/* -------------------- Form thêm sửa sản phẩm---------------------- */
+.general-form{
+    padding: 0px 28%;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 1.4rem;
+}
+.general-form label{
+    font-weight: 600;
+
+}
+.block_form{
+    margin-top: 1.6rem;
+}
+.general-form>.block_form>input{
+    border: 1px solid var(--border-color-form-table);
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 15px;
+}
+.general-form>.block_form>select{
+    padding: 10px;
+}
+.submit-general-form{
+    background-color: rgb(32, 169, 255);
+    color: var(--white);
+
+}
+.cancel-general-form{
+    background-color: red;
+    color: var(--white);
+    ;
+}
+.cancel-general-form:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.submit-general-form:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+.hidden-side-bar{
+    transform: translateX(-100%);
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+}
+.widen{
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+.hidden{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #dddcdc;
+}
+.hidden i{
+    margin-top: 1px;
+}
+.hidden:hover{
+    background-color: var(--white);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.menu-bar-admin:hover i{
+opacity: 0.8;
+cursor: pointer;
+}
+

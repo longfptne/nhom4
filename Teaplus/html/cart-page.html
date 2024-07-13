@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/cart/cart.css" />
+    <link rel="stylesheet" href="css/loading.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/product/product-page.css" />
+    <title>Trang chủ</title>
+  </head>
+  <body>
+    <div class="container w-100 d-f f-d">
+      <header class="w-100 d-f f-d">
+        <!-- ---------header phần liên hệ và đăng nhập-------------- -->
+
+        <div class="header_contact w-100">
+          <div class="email d-f al-c">
+            <i class="fa-solid fa-envelope"></i>
+            admin@gmail.com
+          </div>
+          <div class="contain_login_social d-f">
+            <div class="social d-f">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <div class="line"></div>
+            <div class="login">
+              <!-- -------------- Chưa đăng nhập-------------- -->
+
+              <!-- <a href="">
+                    Đăng nhập
+                </a> -->
+
+              <!-- -------------- Đăng nhập rồi------------------ -->
+
+              <i class="fa-solid fa-chevron-down"></i>
+              <a
+                class="login-userName"
+                onclick="redirect('test.html?act=good',1000)"
+                >Nguyễn Văn Đức</a
+              >
+              <ul>
+                <li><a href="#">Thông tin tài khoản</a></li>
+                <li><a href="#">Đơn hàng</a></li>
+                <li><a href="#">Giỏ hàng</a></li>
+                <li><a href="#">Địa chỉ nhận hàng</a></li>
+                <li><a href="#">Đăng xuất</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------header phần logo và menu bar----------------- -->
+        <div class="header-logo-menu w-100 d-f">
+          <div class="contain_logo_menu d-f">
+            <div class="logo d-f al-c">
+              <a href="#" class="d-f al-c jf-c">
+                <img style="width: 80px" src="./img/logo/logo.jpg" alt="" />
+              </a>
+            </div>
+
+            <div class="menu_bar d-f al-c">
+              <ul class="d-f al-c">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contain_like_cart d-f">
+            <div class="like">
+              <i class="fa-solid fa-heart"></i>
+              <div class="number">1</div>
+            </div>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="number">1</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------header phần danh mục và tìm kiếm số điện thoại-----------------   -->
+
+        <div class="header-category_search d-f al-c">
+          <div class="contain_category d-f al-c">
+            <div class="d-f al-c category">
+              <i class="fa-solid fa-bars category-bar"></i>
+              <div class="category-text">Danh mục</div>
+            </div>
+            <i class="fa-solid fa-chevron-down category-icon-down"></i>
+            <ul>
+              <li><a href="#">Trà sữa trân châu</a></li>
+              <li><a href="#">Trà sữa matcha</a></li>
+              <li><a href="#">Trà sữa dâu tây</a></li>
+              <li><a href="#">Trà sữa chocolate</a></li>
+              <li><a href="#">Trà sữa việt quất</a></li>
+            </ul>
+          </div>
+          <div class="search">
+            <form action="" class="d-f">
+              <input
+                type="text"
+                class="input-search"
+                placeholder="Bạn cần tìm kiếm sản phẩm..."
+              />
+              <input type="submit" value="Tìm kiếm" class="search-btn" />
+            </form>
+          </div>
+          <div class="contain_number-phone d-f al-c">
+            <div class="icon-phone">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="numberPhone d-f f-d">
+              <span class="numberPhone_number">0123456678</span>
+              <span class="numberPhone_24">Hỗ trợ 24/07</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- -----------------------main--------------------------- -->
+      <main class="w-100 d-f f-d al-c">
+               
+          <h1 class="title_product_new">Sản phẩm </h1>
+          <div class="product-page-banner">
+              <span class="product-page-banner_title">Trang chủ - Giỏ hàng</span>
+         </div>
+
+         <!-- ----------------------------------- Form hiển thị giỏ hàng ----v--------------------- -->
+         <section class="contain-form-submit-cart w-100">
+          
+         <form action="detail-product.html" class="form-submit-cart w-100">         
+          <table class="table-cart w-100">
+ 
+           <thead>
+             <tr>
+               <th>Tên trà sữa</th>
+               <th>Thêm topping</th>
+               <th>Lựa chọn khác</th>
+               <th>Giá</th>
+               <th>Số lượng</th>
+               <th>Tổng</th>
+               <th>Hành động</th>
+ 
+             </tr>
+           </thead>
+           <tbody>
+
+            <!-- ----------------------------- -->
+             <tr>
+               <td> 
+                  <img style="width: 20px;" src="./img/product/ts1.jpg" alt=""> 
+                  Trà sữa Ô Long (M)(30,000đ)
+                </td>
+                <td>
+                  <ul>
+                    <li>Trân châu baby(8,000đ)</li>
+                    <li>Trân châu baby(8,000đ)</li>
+                  </ul>
+                </td>
+                <td>70% đá 100% đường</td>
+                <td>38,000đ</td>
+                <td>
+                  <div class="quantity d-f al-c jf-c">
+                    <div class="subtract circle_border">
+                      <i style="margin-left: 1px;" class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="product_quantity">1</div>
+                    <div class="add circle_border">
+                      <i style="margin-left: 1px;" class="fa-solid fa-plus"></i>
+                    </div>
+                  </div>
+                </td>
+                <td>78,000đ</td>
+                <td>
+                <a href="">Xóa</a>
+                </td>
+             </tr>
+            <!-- ----------------------------- -->
+              <!-- ----------------------------- -->
+              <tr>
+                <td> 
+                   <img style="width: 20px;" src="./img/product/ts1.jpg" alt=""> 
+                   Trà sữa Ô Long (M)(30,000đ)
+                 </td>
+                 <td>
+                   <ul>
+                     <li>Trân châu baby(8,000đ)</li>
+                     <li>Trân châu baby(8,000đ)</li>
+                   </ul>
+                 </td>
+                 <td>70% đá 100% đường</td>
+                 <td>38,000đ</td>
+                 <td>
+                   <div class="quantity d-f al-c jf-c" style="margin-top: 0px;">
+                     <div class="subtract circle_border">
+                       <i style="margin-left: 1px;" class="fa-solid fa-minus"></i>
+                     </div>
+                     <div class="product_quantity">1</div>
+                     <div class="add circle_border">
+                       <i style="margin-left: 1px;" class="fa-solid fa-plus"></i>
+                     </div>
+                   </div>
+                 </td>
+                 <td>78,000đ</td>
+                 <td>
+                 <a href="">Xóa</a>
+                 </td>
+              </tr>
+             <!-- ----------------------------- -->
+
+           </tbody>
+ 
+ 
+          </table>
+          <div class="w-100 d-f jf-b m-t-b10">
+            
+            <button>
+              <a href="" class="continue-buy">
+                Tiếp tục mua hàng
+              </a>
+            </button>
+            <div class="contain-upgrade-cart ">
+              <i class="fa-solid fa-spinner rotate-upgrade-cart"></i>
+
+              <input type="submit" value="Cập nhật giỏ hàng" class="upgrade-cart ">
+            </div>
+            
+          </div>
+         </form>
+         </section>
+         <!-- ----------------------------------- Form hiển thị giỏ hàng ----^--------------------- -->
+
+
+        <!-- ------------------ Nhập thông tin người dùng và thanh toán----------------v--------------- -->
+          <section class="contain-info_user-pay w-100 ">
+
+            <!-- --------------Thông tin người dùng---------v----- -->
+            <form action="" class="w-100 d-f jf-b form-pay" style="padding-left: 15px;">
+            <div class="info_user w-45">
+              <h4>Thông tin mua hàng</h4>
+              <div>
+                
+                  <a class="get-old-info" href="">
+                    Lấy thông tin cũ
+                  </a>
+                
+                  <!-- ------- -->
+                  <div class="d-f w-100 m-t-b10">
+                    <label class="label_input-info-user" for=""><i class="fa-solid fa-user"></i></label>
+                    <input type="text" placeholder="Tên người nhận" class="input-info" name="user">
+                  </div>
+                  <!-- --------- -->
+                  <!-- ------- -->
+                  <div class="d-f w-100 m-t-b10">
+                    <label class="label_input-info-user" for=""><i class="fa-solid fa-phone"></i></label>
+                    <input type="text" placeholder="Số điện thoại" class="input-info" name="number-phone">
+                  </div>
+                  <!-- --------- -->
+                  <!-- ------- -->
+                  <div class="d-f w-100 m-t-b10">
+                    <label class="label_input-info-user" for=""><i class="fa-solid fa-location-dot"></i></label>
+                    <input type="text" placeholder="Địa chỉ" class="input-info" name="address">
+                  </div>
+                  <!-- --------- -->
+                  <!-- ------- -->
+                  <div class="d-f w-100 m-t-b10">
+                    <label class="label_input-info-user" for="">
+                      <i class="fa-regular fa-clipboard"></i>
+                    </label>
+                    <input type="text" placeholder="Ghi chú thêm địa chỉ" class="input-info" name="note">
+                  </div>
+                  <!-- --------- -->
+                  
+                  <span class="note" style="color:red">
+                    Note : 3 trường đầu không được để trống
+                  </span>
+                  
+              </div>
+            </div>
+            <!-- --------------Thông tin người dùng---------^----- -->
+            <!-- -------------------- Thanh toán -----------v----- -->
+            <div class="block-pay w-45">
+              <div class="payments w-100">
+                <h4>Hình thức chuyển khoản</h4>
+                <div  class="w-100">
+                <div class="m-t-b10">
+                  <input type="radio" name="bank">
+                  <label for="">Chuyển khoản ngân hàng</label>
+                </div>
+                <div class="m-t-b10">
+                  <input type="radio" name="bank">
+                  <label for="">Thanh toán tiền mặt</label>
+                </div>
+              </div>
+              </div>
+              <ul class="w-100 block-pay_ul">
+                <li class="d-f jf-b">
+                  <span style="font-weight: 600;font-size: 1.7rem;">
+                    Tổng tiền giỏ hàng
+                  </span>
+                 
+                </li>
+                <li class="d-f jf-b">
+                  <span>
+                    Tiền tạm tính
+                  </span>
+                  <span class="cash">
+                    80,000đ
+                  </span>
+                </li>
+                <li class="d-f jf-b">
+                  <span>
+                    Tổng tiền
+                  </span>
+                  <span class="cash">
+                    80,000đ
+                  </span>
+                </li>
+                <li class="d-f jf-b">
+                  <span>
+                    Phí vận chuyển
+                  </span>
+                  <span class="cash">
+                    80,000đ
+                  </span>
+                </li>
+                <li class="d-f jf-c">
+                 <!-- <span class="w-100 d-f jf-c buy-now " >Mua ngay</span> -->
+                 <input type="submit" style="text-align: center;" class="w-100 d-f jf-c buy-now " value="Mua ngay">
+                </li>
+                
+              </ul>
+            </div>
+
+
+            <!-- -------------------- Thanh toán -----------^----- -->
+
+          </form>
+
+
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ------------------ Nhập thông tin người dùng và thanh toán---------------^--------------- -->
+
+         
+              
+
+      </main>
+      <footer>
+        <div class="column logo-address">
+          <div class="footer-logo">
+            <a href="">
+              <img src="./img/logo/logo_png.png" alt="" />
+            </a>
+            <ul class="footer-list">
+              <li>FPT Phố Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội</li>
+              <li>01224345465</li>
+              <li>user@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <!-- ---------------------------------- -->
+        <div class="d-f jf-b">
+          <div class="column2 logo-address">
+            <div class="footer-logo2">
+              <h3>Liên kết hữu ích</h3>
+              <ul class="footer-list">
+                <li>Về chúng tôi</li>
+                <li>Liên hệ</li>
+                <li>Chính sách bảo mật</li>
+                <li>Chính sách đổi trả</li>
+              </ul>
+            </div>
+          </div>
+          <!-- ---------------------------------- -->
+          <div class="column2 logo-address">
+            <div class="footer-logo2">
+              <h3>Đăng kí nhận thông tin mới nhất</h3>
+              <ul class="footer-list">
+                <li>
+                  Nhập email của bạn để nhận thông tin khuyến mãi sớm nhất của
+                  chúng tôi
+                </li>
+              </ul>
+              <div class="search">
+                <form action="" class="d-f">
+                  <input
+                    style="width: 175px"
+                    type="text"
+                    class="input-search"
+                    placeholder="Đăng kí"
+                  />
+                  <input
+                    type="submit"
+                    value="Đăng kí"
+                    style="padding: 10px 15px"
+                    class="search-btn"
+                  />
+                </form>
+              </div>
+              <div class="social d-f" style="margin-top: 20px; width: 100%">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------- -->
+        </div>
+      </footer>
+    </div>
+  
+
+    <!-- ------------------loading chuột hamster ---------------------------- -->
+    <div class="container1">
+      <div
+        aria-label="Orange and tan hamster running in a metal wheel"
+        role="img"
+        class="wheel-and-hamster"
+      >
+        <div class="wheel"></div>
+        <div class="hamster">
+          <div class="hamster__body">
+            <div class="hamster__head">
+              <div class="hamster__ear"></div>
+              <div class="hamster__eye"></div>
+              <div class="hamster__nose"></div>
+            </div>
+            <div class="hamster__limb hamster__limb--fr"></div>
+            <div class="hamster__limb hamster__limb--fl"></div>
+            <div class="hamster__limb hamster__limb--br"></div>
+            <div class="hamster__limb hamster__limb--bl"></div>
+            <div class="hamster__tail"></div>
+          </div>
+        </div>
+        <div class="spoke"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="JavaScript/link.js"></script>
+    <!-- <script type="module" src="JavaScript/main.js"></script> -->
+    <script type="module" src="JavaScript/cart.js"></script>
+  </body>
+</html>
+
+</body>
+</html>

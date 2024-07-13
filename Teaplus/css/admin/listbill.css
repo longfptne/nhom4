@@ -1,0 +1,41 @@
+#listbill{
+
+}
+.price{
+    color: red;
+}
+.box-flex{
+    display: flex; 
+    justify-content: space-between;
+}
+.thongtin-bill{
+/* max-width: 40%; */
+ margin: 20px;
+}
+.thongtin-bill table td{
+    border: 1px solid black;
+}
+/
+.tinhtrang-bill{
+    width: 45%;
+    background-color: antiquewhite;
+    padding: 15px;
+    /* border: 1px solid red; */
+    margin: 5px 15px 20px;
+
+}
+#title-bill{
+width: 80%;
+}
+.tinhtrangdonhang{
+color: red;
+}
+.thongtingiaohang-bill{
+    /* border: 1px solid red; */
+    margin: 5px 15px 20px;
+    width: 45%;
+    background-color: antiquewhite;
+    padding: 15px;
+
+
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/admin/admin.css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <div class="container d-f w-100">
+      <div class="side-bar">
+        <div class="shop_name block">
+          <div class="image">
+            <a href="./index.html">
+              <img src="./img/logo/logo.jpg" alt="" />
+            </a>
+          </div>
+          <span>Tea plus</span>
+        </div>
+        <div class="team_name block">
+          <div class="image">
+            <img src="./img/product/ts3.jpg" alt="" />
+          </div>
+          <span>Tea plus</span>
+        </div>
+        <div class="admin-search-sideBar block">
+          <form action="" class="d-f w-100">
+            <input type="text" placeholder="Search" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div class="contain-list-menu w-100">
+          <ul>
+            <!--  -->
+            <li >
+              <a href="#" >
+                <div>
+                  <i class="fa-solid fa-gauge"></i>
+                  <span>Dashboard</span>
+                </div>
+              </a>
+
+            </li>
+            <!-- --------------------------------------- -->
+            <li class="li-side-bar">
+              <a href="#" class="a-side-bar">
+                <div>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span>Đơn hàng</span>
+                </div>
+                <i class="fa-solid fa-chevron-down d-none"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Quản lý đơn hàng</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+
+                      <span>Dashboard</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- ----------------------------- -->
+            <!-- --------------------------------------- -->
+            <li class="li-side-bar">
+              <a href="#" class="a-side-bar">
+                <div>
+                  <i class="fa-solid fa-list"></i>
+                  <span>Danh mục</span>
+                </div>
+                <i class="fa-solid fa-chevron-down d-none"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+              <!-- --------------- menu con --------------------- -->
+
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Quản lý danh mục</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Thêm danh mục</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- ----------------------------- -->
+            <li class="li-side-bar">
+              <a href="#" class="a-side-bar">
+                <div>
+                  <i class="fa-solid fa-users"></i>
+                  <span>Tài khoản</span>
+                </div>
+                <i class="fa-solid fa-chevron-down d-none"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+              <!-- --------------- menu con --------------------- -->
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Quản lý tài khoản</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Thêm tài khoản</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- ----------------------------- -->
+            <li class="li-side-bar">
+              <a href="#" class="a-side-bar">
+                <div>
+                  <i class="fa-solid fa-mug-hot"></i>
+                  <span>Sản phẩm</span>
+                </div>
+                <i class="fa-solid fa-chevron-down d-none"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+              <!-- --------------- menu con --------------------- -->
+
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Quản lý sản phẩm</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Thêm sản phẩm</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- ----------------------------- -->
+            <li class="li-side-bar">
+              <a href="#" class="a-side-bar">
+                <div>
+                  <i class="fa-solid fa-list"></i>
+                  <span>Thống kê </span>
+                </div>
+                <i class="fa-solid fa-chevron-down d-none"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+              <!-- --------------- menu con --------------------- -->
+
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Dashboard</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <i class="fa-regular fa-circle"></i>
+                      <span>Dashboard</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- ----------------------------- -->
+          </ul>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------- -->
+      <div class="dash-board">
+        <header class="w-100">
+          <div class="admin-bar w-100">
+            <div class="left-menu d-f">
+              <div class="left-menu-bar">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="left-menu-bar">Home</div>
+              <div class="left-menu-bar">Contact</div>
+            </div>
+          </div>
+        </header>
+        <main class="w-100 d-f f-d">
+          <div class="contain_product_user_cash d-f">
+
+
+            <div class="product d-f f-d admin-block-dashboard">
+              <div class="parameter d-f">
+                <div>
+                  <div class="admin_numberProduct">12</div>
+                  <div class="admin_textProduct">Số lượng sản phẩm</div>
+                </div>
+                <div class="admin_icon_product">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+              <div class="more-info info_product d-f jf-c al-c">
+                More info
+                <div class="admin_icon_more-info">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- ---------------------------------- -->
+            
+            <div class=" d-f f-d admin-block-dashboard">
+                <div class="parameter d-f admin_money">
+                  <div>
+                    <div class="admin_numberProduct">120,000,000</div>
+                    <div class="admin_textProduct">Tổng doanh thu</div>
+                  </div>
+                  <div class="admin_icon_product">
+                    <i class="fa-solid fa-money-bill"></i>
+                  </div>
+                </div>
+                <div class="more-info d-f jf-c al-c info_money">
+                  More info
+                  <div class="admin_icon_more-info">
+                      <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- ---------------------------------- -->
+              
+            <div class=" d-f f-d admin-block-dashboard">
+                <div class="parameter d-f admin_user">
+                  <div>
+                    <div class="admin_numberProduct">1</div>
+                    <div class="admin_textProduct">Khách hàng</div>
+                  </div>
+                  <div class="admin_icon_product">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+                <div class="more-info d-f jf-c al-c info_user">
+                  More info
+                  <div class="admin_icon_more-info">
+                      <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- ---------------------------------- -->
+          </div>
+          <!-- ---------------------Biểu đồ----------------------- -->
+          <div class="canvas-chart">
+            <canvas id="myChart" style="width:100%;max-width: 80%;height: 350px;"></canvas>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script>
+        var xValues = [50,60,70,80,90,100,110,120,130,140,150];
+        var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+        var zValues = [6,6,8,13,9,9,13,16,14,14,15];
+        
+        new Chart("myChart", {
+          type: "line",
+          data: {
+            labels: xValues,
+            datasets: [{
+              fill: false,
+              lineTension: 0,
+              backgroundColor: "rgba(0,0,255,1.0)",
+              borderColor: "rgb(53, 208, 247)",
+              data: yValues,
+              
+            },{
+              fill: false,
+              lineTension: 0,
+              backgroundColor: "rgba(0,0,255,1.0)",
+              borderColor: "black",
+              data: zValues,
+              
+            }]
+          },
+          options: {
+            legend: {display: false},
+            scales: {
+              yAxes: [{ticks: {min: 6, max:16}}],
+            }
+          }
+        });
+        </script>
+    <script src="JavaScript/admin/admin.js"></script>
+  </body>
+</html>
+
+
